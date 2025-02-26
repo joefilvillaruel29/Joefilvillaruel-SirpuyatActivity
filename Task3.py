@@ -18,7 +18,7 @@ class BankAccount:
     def display_balance(self):
         print(f"Account Balance: {self.balance}")
 
-account = BankAccount("123456789", "Joefil Villanueva", 5000)
+account = BankAccount("123456789", "Joefil Villaruel", 5000)
 
 account.deposit(500)
 account.withdraw(400)
